@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ချစ်သူအတွက်အထူးလက်ဆောင်</title>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="love-scene">
+        <div class="flower-petals"></div>
+        
+        <div class="love-letter">
+            <div class="letter-closed" id="letter-closed">
+                <div class="ribbon"></div>
+                <div class="seal" id="seal">
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+            
+            <div class="letter-opened" id="letter-opened">
+                <div class="letter-content">
+                    <div class="message" id="message"></div>
+                    <div class="signature">Kiki</div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="music-btn" id="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="aposu5.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
